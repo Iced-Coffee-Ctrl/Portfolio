@@ -11,21 +11,21 @@ export default function Contact() {
     {
       icon: HiMail,
       label: "Email",
-      value: "trangalt@proton.me",
+      value: "Get in touch",
       href: "mailto:trangalt@proton.me",
       color: "text-red-500",
     },
     {
       icon: SiLinkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/minh-ngn",
+      value: "Connect with me",
       href: "https://linkedin.com/in/minh-ngn",
       color: "text-blue-600",
     },
     {
       icon: SiGithub,
       label: "GitHub",
-      value: "github.com/Iced-Coffee-Ctrl",
+      value: "View my code",
       href: "https://github.com/Iced-Coffee-Ctrl",
       color: "text-gray-800 dark:text-gray-200",
     },
@@ -55,19 +55,6 @@ export default function Contact() {
         ))}
       </div>
 
-      <motion.div
-        className="mt-12 text-center"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, delay: 0.4 }}
-      >
-        <p className="text-xl text-gray-600 dark:text-gray-400">
-          Open to opportunities in data science, machine learning, and software development.
-          <br />
-          Let's connect and build something impactful together!
-        </p>
-      </motion.div>
     </Section>
   );
 }

@@ -13,13 +13,13 @@ export default function Experience() {
       duration: "Sep 2024 - Present",
       location: "Brisbane, Australia",
       responsibilities: [
-        "Designed geospatial catastrophe claims prediction system using LightGBM/XGBoost for postcode-level forecasting",
-        "Engineered automated weather-driven affected area detection achieving 95%+ recall across multiple catastrophe types",
-        "Implemented spatial interpolation methods aggregating weather station data to postcode-level predictions",
-        "Built comprehensive feature engineering pipeline integrating BOM weather, ABS census, and terrain data",
-        "Developed real-time dashboards and reports using Python, Power BI, and SSRS for stakeholder decision-making",
+        "Designed geospatial prediction systems using ensemble methods for regional-level forecasting",
+        "Engineered automated weather-driven affected area detection achieving 95%+ recall across multiple event types",
+        "Implemented spatial interpolation methods aggregating point-based observations to areal predictions",
+        "Built comprehensive feature engineering pipeline integrating meteorological, demographic, and terrain data",
+        "Developed real-time dashboards and reports for stakeholder decision-making",
       ],
-      technologies: ["Python", "LightGBM", "XGBoost", "GeoPandas", "Power BI", "SSRS", "GCP", "Snowflake"],
+      technologies: ["Python", "SQL", "Snowflake", "Power BI", "Azure DevOps", "HEX", "Dataiku", "Git", "VS Code"],
     },
     {
       title: "Pricing Analyst",
@@ -33,7 +33,7 @@ export default function Experience() {
         "Built automated data pipelines using Python and SQL for large-scale insurance data processing",
         "Conducted rate change analysis and financial forecasting to support business planning",
       ],
-      technologies: ["Python", "SQL", "LightGBM", "SHAP", "PostgreSQL", "PostGIS", "Git", "R"],
+      technologies: ["Python", "R", "SQL", "GCP", "Vertex AI", "SAS", "MapInfo", "Git", "Jupyter Notebook"],
     },
   ];
 

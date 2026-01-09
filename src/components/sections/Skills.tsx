@@ -12,7 +12,7 @@ export default function Skills() {
         { name: "Python", icon: SiPython, level: 95 },
         { name: "SQL", icon: SiPostgresql, level: 90 },
         { name: "R", level: 80 },
-        { name: "JavaScript/TypeScript", icon: SiJavascript, level: 75 },
+        { name: "MATLAB", level: 80 },
       ],
     },
     {
@@ -25,21 +25,30 @@ export default function Skills() {
       ],
     },
     {
-      category: "Geospatial & Cloud",
+      category: "Cloud Platforms",
       skills: [
-        { name: "GeoPandas / PostGIS", level: 90 },
         { name: "Google Cloud Platform", level: 80 },
-        { name: "Snowflake", level: 80 },
-        { name: "MapInfo / QGIS", level: 75 },
+        { name: "Vertex AI / HEX", level: 80 },
+        { name: "Snowflake", level: 75 },
+        { name: "Dataiku", level: 80 },
       ],
     },
     {
-      category: "Business Intelligence & Tools",
+      category: "Development & Analytics Platforms",
       skills: [
         { name: "Power BI", level: 90 },
-        { name: "Git / GitHub", icon: SiGit, level: 90 },
-        { name: "Docker", icon: SiDocker, level: 75 },
-        { name: "VS Code / Jupyter", level: 95 },
+        { name: "SSMS", level: 85 },
+        { name: "SSRS", level: 80 },
+        { name: "Git / Azure DevOps", icon: SiGit, level: 90 },
+      ],
+    },
+    {
+      category: "AI & NLP Tools",
+      skills: [
+        { name: "LlamaIndex", level: 80 },
+        { name: "LangChain", level: 70 },
+        { name: "OpenAI / Claude APIs", level: 75 },
+        { name: "Prompt Engineering", level: 75 },
       ],
     },
   ];
